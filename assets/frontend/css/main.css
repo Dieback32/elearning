@@ -1,0 +1,993 @@
+body{
+    background-color: #e9ebee;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Notification*/
+.notification-container{
+    margin-top: 10px;
+    max-width: 400px;
+    max-height: 100px;
+    min-height: 80px;
+    min-width: 400px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+/*Footer*/
+.footer-home{
+    position: relative;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 280px 50px 200px;
+    padding: 17px 0 0 0;
+}
+
+.footer-home span{
+    color: #737373;
+    font-size: 11px;
+}
+.footer-profile{
+    position: relative;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 292px 50px 116px;
+    padding: 17px 0 0 0;
+
+}
+.footer-profile span{
+    color: #737373;
+    font-size: 11px;
+}
+.footer-grading{
+    position: relative;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 203px 50px 295px;
+    padding: 17px 0 0 0;
+}
+.footer-grading span{
+    color: #737373;
+    font-size: 11px;
+}
+
+.footer-grading{
+    position: relative;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 303px 50px 295px;
+    padding: 17px 0 0 0;
+}
+.footer-grading span{
+    color: #737373;
+    font-size: 11px;
+}
+
+
+.footer{
+    position: relative;
+    border-top: 1px solid #dddfe2;
+    margin: 20px 310px 50px 303px;
+    padding: 17px 0 0 0;
+}
+.footer span{
+    color: #737373;
+    font-size: 11px;
+}
+
+/*Home Content*/
+.event-container{
+    border-bottom: 1px solid #e9ebee;
+    padding: 10px 10px 10px 10px;
+}
+.event-header{
+    height: 50px;
+    padding: 20px 10px 20px 10px;
+}
+.event-header .event-settings{
+    visibility: visible;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+/*.event-header:hover .event-settings{*/
+/*visibility: visible;*/
+/*}*/
+
+
+.event-day{
+    color: #fa3e3e;
+    font-size: 22px;
+    line-height: 12px;
+    display: block;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 80px;
+}
+.event-month{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 12px;
+    display: block;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.event-title{
+    font-weight: bold;
+    line-height: 12px;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    margin-top: 75px;
+}
+.event-date-location{
+    color: gray;
+    line-height: 12px;
+    display: block;
+    position: relative;
+    text-align: justify;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.event-desc{
+    line-height: 12px;
+    display: block;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+/*Navbar*/
+.bell{
+    top: 4px;
+    color: white!important;
+    position: relative;
+    display: inline-block;
+}
+.bell .notify{
+    visibility: hidden;
+    background-color: black;
+    color: whitesmoke;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.bell:hover .notify{
+    visibility: visible;
+}
+
+#user-option{
+    color: white;
+    background-color: transparent
+}
+#user-option:active{
+    color: black;
+}
+#user-option:focus{
+    color: black;
+}
+.nav-stacked li a{
+    color: black;
+}
+.nav-stacked li a:hover{
+    background-color: whitesmoke;
+}
+
+.dropdown-menu li a{
+    color: black!important;
+}
+.dropdown-menu li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#left-sidebar{
+    position: fixed;
+    min-width: 190px;
+    font-size: 15px;
+}
+#content{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 280px;
+    display: block;
+    zoom: 1;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    min-height: 520px;
+}
+
+/*User Profile*/
+#profile-container{
+    margin-top:50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#coverphoto{
+    height: 462px;
+    width: 940px;
+    margin-right: 200px;
+    z-index: -1;
+
+}
+#coverphoto img{
+    width: 100%;
+    height: 400px;
+}
+#coverphoto .overlay{
+    z-index: 1;
+    position: absolute;
+    background: transparent;
+    height: 400px;
+    width: 940px;
+}
+.profile-picture{
+    width: 180px;
+    height: 200px;
+    box-shadow:white 0px 0px 0px 1px;
+    z-index: 2;
+    position: relative;
+    left: 30px;
+    top:180px;
+    background-color: #e9ebee;
+    border-radius: 4px;
+}
+.profile-picture img{
+    width: 177px;
+    height: 197px;
+}
+.user-name{
+    z-index:2;
+    width: 250px;
+    height: 50px;
+    left: 220px;
+    top:100px;
+    color: white;
+    position: relative;
+}
+
+.about-container{
+    height: 482px;
+    width: 940px;
+    border: 1px solid #d3d6db;
+    margin-right: 200px;
+    margin-left:116px;
+    background-color: white;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+.about-header{
+    padding-top: 13px;
+    background-color:#f6f7f9;
+    height: 50px;
+    border-bottom: 1px solid #d3d6db;
+    border-radius: 2px 2px 0 0;
+}
+.about-header h3{
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0!important;
+}
+.about-sidebar{
+    border-right: 1px solid #d3d6db;
+    height: 431px;
+    width: 250px;
+    position: absolute;
+}
+.about-sidebar ul{
+    list-style-type: none ;
+    margin-left: -40px;
+}
+.active-link:visited{
+    color:black;
+    font-weight: bold;
+}
+.active-link:link{
+    color:black;
+    font-weight: bold;
+}
+
+.about-sidebar li{
+    height: 42px;
+    padding: 12px 4px 12px 16px;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+}
+.about-sidebar a{
+    color: #90949c;
+    text-decoration: none;
+}
+.about-sidebar a:hover{
+    color: black;
+}
+.about-content{
+    padding-top: 20px;
+    margin-left: 260px;
+    width: 665px;
+}
+.header-place{
+    border-bottom: 1px solid #dddfe2;
+    line-height: 25px;
+    margin: 0 40px 0 40px;
+}
+.header-place span{
+    text-transform: uppercase;font-weight: bold;color: #90949c;
+}
+.current-city{
+    border-bottom: 1px solid #dddfe2;
+    line-height: 25px;
+    margin: 20px 40px 0 40px;
+
+}
+.current-city .edit-place{
+    float: right;
+    visibility: hidden;
+    margin-left: 30px;
+}
+.current-city:hover .edit-place{
+    visibility: visible;
+}
+.current-city span{
+    font-weight: bold;
+    color: #365899;
+}
+.current-city small{
+    color: #90949c;
+}
+
+.header-info{
+    border-bottom: 1px solid #dddfe2;
+    line-height: 25px;
+    margin: 0 40px 0 40px;
+}
+.header-info span{
+    text-transform: uppercase;font-weight: bold;color: #90949c;
+}
+.data-list .edit-contact{
+    visibility: hidden;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.data-list:hover .edit-contact{
+    visibility: visible;
+}
+.data-list .edit-info{
+    visibility: hidden;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.data-list:hover .edit-info{
+    visibility: visible;
+}
+.data-list .edit-about{
+    visibility: hidden;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.data-list:hover .edit-about{
+    visibility: visible;
+}
+.data-list{
+    border-bottom: 1px solid #dddfe2;
+    line-height: 25px;
+    margin: 20px 40px 0 40px;
+    padding-bottom: 20px;
+}
+#label{
+    color: #90949c;
+    font-size: 15px;
+    line-height: 20px;
+}
+.data-list #data{
+    position: relative;
+    margin-left: 150px;
+}
+
+/*Class Group Page*/
+.class-container{
+    padding-top: 55px;
+}
+.group-sidebar{
+    width: 170px;
+    position: fixed;
+}
+
+.group-sidebar ul{
+    padding: 0;
+}
+.group-sidebar li{
+    list-style: none;
+    padding: 10px 0 10px 10px;
+}
+.group-sidebar a{
+    text-decoration: none;
+    color: #90949c;
+}
+.group-sidebar li:hover{
+    background-color: whitesmoke;
+}
+.group-content{
+    background-color: whitesmoke;
+    position: relative;
+    height: inherit;
+    min-height: 520px;
+    margin-left: 190px;
+    margin-right: 200px;
+    padding: 0 0 30px 0;
+}
+
+
+.group-content-box{
+    margin: 0 30px 0 30px;
+}
+.group-list-data{
+    border-bottom: 1px solid #e9ebee;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.group-list-data .g-settings{
+    visibility: hidden;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.group-list-data:hover .g-settings{
+    visibility: visible;
+}
+
+.access-code{
+    margin-top: 10px;
+    border-top: 2px solid #dddfe2;
+}
+.access-code span{
+    color: green;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.access-code p{
+    margin-top: 10px;
+}
+
+/*Class Wall CSS*/
+.wall-content{
+    background-color: whitesmoke;
+    position: relative;
+    height: inherit;
+    min-height: 520px;
+    margin-left: 190px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+}
+.class-wall-container{
+    margin: 20px 30px 20px 30px;
+}
+
+.comment-holder{
+    /*border-top: 1px solid #dddfe2;*/
+    width: inherit;
+    height: inherit;
+    padding-top: 15px;
+    margin: 20px 30px 20px 30px;
+}
+.comment{
+    border-top: 1px solid #dddfe2;
+    width: inherit;
+    height: inherit;
+    padding-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.comment h5{
+    text-align: center;
+}
+.user-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    overflow: inherit;
+}
+.user-comment span{
+    position: static;
+    margin-left: 60px;
+}
+
+/*Quiz & Exam CSS*/
+.quiz-container{
+    background-color: whitesmoke;
+    position: relative;
+    height: inherit;
+    min-height: 520px;
+    margin-left: 190px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+}
+.quiz-header{
+    background: white;
+    height: 65px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-bottom: 1px solid #dddfe2;
+}
+.quiz-header span{
+    font-size: 20px;
+}
+.quiz-content button{
+    border-radius: 0;
+}
+.quiz-content{
+    margin: 20px 30px 0 30px;
+}
+.create-quiz-container{
+    margin: 20px 0 0 0;
+}
+.quiz-list{
+    width: inherit;
+    height: inherit;
+    margin: 20px 10px 0 10px;
+    border-bottom: 1px solid #dddfe2;
+    padding: 20px 0 20px 20px;
+    line-height: 25px;
+    position: relative;
+}
+
+.questions-list{
+    margin-top: 10px;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.quiz-list .q-settings{
+    visibility: hidden;
+    position: relative;
+    float: right;
+    font-weight: bold;
+    margin: 7px 20px 0 10px;
+}
+.quiz-list:hover .q-settings{
+    visibility: visible;
+}
+/*Live lecture CSS*/
+.booth{
+    width: 400px;
+    background: #ccc;
+    margin: 0 auto;
+}
+#localVideo{
+    width: 400px;
+    height: 300px;
+    background: #ccc;
+    margin: 0 auto;
+}
+/*Members List CSS*/
+.user-content{
+    width: inherit;
+    height: inherit;
+    margin: 20px 10px 0 10px;
+    border-bottom: 1px solid #dddfe2;
+    padding: 20px 0 20px 20px;
+    line-height: 25px;
+    position: relative;
+}
+#user-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+#user-position{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.user-status{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+}
+
+/*Grading Sheet CSS*/
+.grading-content{
+    background-color: whitesmoke;
+    position: relative;
+    height: inherit;
+    margin-left: 100px;
+    margin-right: 200px;
+    padding: 0 0 30px 0;
+    min-height: 520px;
+}
+.grading-sidebar ul{
+    list-style: none;
+}
+.grading-sidebar a{
+    text-decoration: none;
+}
+.grading-sidebar{
+    position: fixed;
+    width: 180px;
+    margin-top: 14px;
+    left: 0;
+}
+.grade-header{
+    background: white;
+    height: 65px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-bottom: 1px solid #dddfe2;
+}
+.grade-container{
+    padding: 30px 20px 0 20px;
+}
+
+/*Messages CSS*/
+.container-message{
+    margin-top: 50px;
+    border-bottom: 1px solid #dddfe2;
+}
+.message-header{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #dddfe2;
+    background: white;
+}
+.message-body{
+    width: 100%;
+    height: 560px;
+    background: white;
+}
+.message-leftside{
+    border-right: 1px solid #dddfe2;
+    height: 560px;
+    overflow-y: scroll;
+}
+.message-leftside a{
+    text-decoration: none;
+    color: black;
+}
+
+.message-rightside{
+    border-left: 1px solid #dddfe2;
+    height: 560px;
+}
+
+.leftside-header{
+    background-color: #fff;
+    display: block;
+    height: 50px;
+    margin: 12px 12px 4px;
+}
+.leftside-status{
+    background-color: rgba(0, 0, 0, .03);
+    color: rgba(0, 0, 0, .40);
+    font-size: 13px;
+    line-height: 24px;
+    padding: 0 12px;
+}
+.message-leftside ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.listofusers{
+    background-color: #fff;
+    display: block;
+    margin: 12px 12px 4px;
+}
+
+.listofusers:hover{
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.users-active-status{
+    background-color: #4bcc1f;
+    border-radius: 4px;
+    height: 8px;
+    margin-right: 12px;
+    position: relative;
+    top: 18px;
+    transform: translateY(-50%);
+    width: 8px;
+}
+._chatbox-container-header{
+    margin: 0 10px 0 0;
+    padding: 0 20px 0 0;
+    position: relative;
+}
+._chatbox-header{
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    margin-right: -18px;
+    min-height: 50px;
+    padding: 12px;
+    position: relative;
+}
+._user-img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+._users-name{
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+._users-data-msg{
+    margin: 4px 0 2px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+}
+._users-profession{
+    color: rgba(0, 0, 0, .40);
+    font-size: 12px;
+}
+
+._users-address{
+    color: rgba(0, 0, 0, .40);
+    font-size: 12px;
+}
+._chatbox-content{
+    height: 390px;
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+    vertical-align: bottom;
+}
+._chatbox-message-container{
+    border-top: 1px solid rgba(0, 0, 0, .10);
+    z-index: 201;
+}
+._chatbox-text-field{
+    width: 90%;
+    resize: none;
+    border: 0;
+}
+._chatbox-text-field:focus {
+    outline: none;
+}
+
+._chatbox-message-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px 0 12px;
+    position: relative;
+}
+._chatbox-message-2{
+    flex: 1;
+    max-height: 144px;
+    min-height: 18px;
+    overflow-y: auto;
+    padding: 9px 0;
+    vertical-align: middle;
+}
+._chatbox-message-3{
+    margin-top: 8px;
+}
+.notranslate _5rpu{
+    outline: none;
+    user-select: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.chat-messages{
+    background: #475080;
+    padding: 3px 3px 3px 3px ;
+    border-radius: 3px 3px 3px 3px ;
+    color: white;
+}
+
+.chat-container .chat-logs{
+    visibility: hidden;
+    background-color: black;
+    color: whitesmoke;
+    padding: 4px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.chat-container:hover .chat-logs{
+    visibility: visible;
+}
+
+/*Video CSS*/
+.video-playback{
+    width: 100%;
+    height: 400px;
+}
+
+/*Chatbox CSS*/
+.chat-sidebar
+{
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(29, 49, 91, .3);
+    padding-top: 55px;
+}
+.sidebar-name{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    height: 35px;
+}
+.sidebar-name span
+{
+    padding-left: 5px;
+}
+
+.sidebar-name a
+{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-name:hover
+{
+    background-color:#e1e2e5;
+}
+
+.sidebar-name img
+{
+    width: 32px;
+    height: 32px;
+    vertical-align:middle;
+}
+.popup-box
+{
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 220px;
+    height: 300px;
+    background-color: rgb(237, 239, 244);
+    width: 270px;
+    border: 1px solid rgba(29, 49, 91, .3);
+}
+
+.popup-box .popup-head
+{
+    background-color: #6d84b4;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    clear: both;
+}
+
+.popup-box .popup-head .popup-head-left
+{
+    float: left;
+}
+
+.popup-box .popup-head .popup-head-right
+{
+    float: right;
+    opacity: 0.5;
+}
+
+.popup-box .popup-head .popup-head-right a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.popup-box .popup-messages
+{
+    height: 100%;
+    overflow-y: scroll;
+    display: block;
+}
+.popup-box .msg
+{
+    position: relative;
+    margin-top: 245px;
+}
+.popup-box .popup-text
+{
+    width: 100%;
+    border: none;
+}
+
+/*Mobile Size*/
+@media only screen and (max-width: 800px) {
+    #links a:hover{
+        color: black!important;
+        background-color: white!important;
+    }
+    #content{
+        position: relative;
+        min-width: 500px;
+    }
+    #left-sidebar{
+        position: absolute;
+        min-width: 200px;
+    }
+    .chat-sidebar
+    {
+        display: none;
+    }
+}
+/*User Profile Mobile Display*/
+@media only screen and (max-width: 800px) {
+
+    #coverphoto{
+        min-height: 400px;
+        min-width: 900px;
+    }
+    .about-container{
+        min-height: 400px;
+        min-width: 900px;
+        margin-top: 50px;
+    }
+}
+/*Class Group Mobile Display*/
+@media only screen and (max-width: 800px) {
+    .class-container{
+        position: relative;
+        min-width: 500px;
+    }
+    .group-list-data{
+        position: relative;
+        min-width: 500px;
+    }
+    .group-sidebar{
+        position: absolute;
+        min-width: 200px;
+    }
+    .group-content{
+        position: relative;
+        min-width: 500px;
+    }
+    .group-sidebar{
+        position: absolute;
+        min-width: 200px;
+    }
+    .wall-content{
+        position: relative;
+        min-width: 700px;
+        margin-left: 230px;
+    }
+    .quiz-container{
+        position: relative;
+        min-width: 700px;
+        margin-left: 230px;
+    }
+    .grading-content{
+        position: relative;
+        min-width: 700px;
+        margin-left: 200px;
+    }
+}
+
+
+

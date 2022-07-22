@@ -1,0 +1,73 @@
+.banner{
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 800px;
+}
+
+#banner-cover{
+    background-color: whitesmoke;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+}
+#banner-cover .overlay{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(35, 35, 35, 0.5);
+    height: 800px;
+}
+#content-banner{
+    z-index: 2;
+    position: relative;
+    display: block;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+}
+
+#sign-in{
+    background: rgba(35, 35, 35, 0.5);
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    display:none;
+}
+/*#links a:hover{*/
+/*background-color: rgba(129,139,255,0.83)!important;*/
+/*}*/
+
+/*Mobile Size*/
+@media only screen and (max-width: 800px) {
+    #student-media{
+        color: black;
+    }
+    #links a:hover{
+        color: black!important;
+        background-color: white!important;
+    }
+    .information-details{
+        display: none;
+    }
+
+    #sign-in{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+}
